@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #c6d1d1;
+}
+
+.button-container {
+    margin: 10px;
+}
+
+.underline {
+    border-bottom: 5px solid teal;
+    border-radius: 25px;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 5px 5px 8px #888888;
+}
+
+#person-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#author {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+#job {
+    font-size: 1em;
+    color: teal;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+#info {
+    width: 500px;
+    margin-top: 20px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.random-btn {
+    padding: 10px;
+    border: none;
+}
+
+.prev-button, 
+.next-button {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+}
+
+.prev-button:active,
+.next-button:active,
+.random-btn:active {
+    background-color: skyblue;
+}
+
+i {
+    padding: 5px;
+}
